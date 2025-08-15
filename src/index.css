@@ -8,10 +8,11 @@ html, body, #root {
     padding: 0;         
     width: 100%;       
     background-color: #1c1c24; 
-    }
+    font-family: 'Poppins', sans-serif; /* Nueva tipografía */
+}
 
-    @layer components {
+@layer components {
     /* .btn-primary {
         @apply py-1.5 px-3 text-center bg-blue-700 rounded-md text-white;
-  } */
+    } */
 }
