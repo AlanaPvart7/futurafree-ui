@@ -47,7 +47,7 @@
             "url('https://i.pinimg.com/736x/b6/fa/c3/b6fac3d907a82afe8c3fb374f489c9cd.jpg')",
         }}
         >
-        <div className="flex flex-col items-center space-y-6 bg-black/80 p-10 rounded-2xl w-[420px] shadow-xl">
+        <div className="flex flex-col items-center space-y-6 bg-black/80 p-10 rounded-2xl w-[420px] shadow-xl animate-fadeIn">
             {/* GIF en la parte superior */}
             <img
             src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHg3M3Y0bTl6ajM5aDN6Y3AwYTNucHJhejM2eThvMGVqaGgybWptcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VJxNm7zrm3K4E/giphy.gif"
@@ -55,9 +55,14 @@
             className="w-28 h-28 object-cover rounded-full border-4 border-yellow-400 shadow-lg"
             />
 
-            <h2 className="text-3xl font-bold text-yellow-400 text-center">
-            Inicia sesión en tu cuenta
+            <div className="text-center">
+            <h2 className="text-3xl font-bold text-yellow-400">
+                FuturaFree Store
             </h2>
+            <p className="text-yellow-300 text-sm italic mt-1">
+                El rincón del sonido eterno 🎶
+            </p>
+            </div>
 
             {error && (
             <div className="mb-4 p-3 bg-red-900 border border-red-400 text-red-200 rounded-md w-full text-sm">
